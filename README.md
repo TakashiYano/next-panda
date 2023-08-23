@@ -1,34 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="left">
+  <a href="https://panda-css.com/"><img src="./public/panda-css-icon.svg" height="50px;" /></a>
+</p>
 
-## Getting Started
+## Overview
 
-First, run the development server:
+- サーバファースト
+  - クライアントサイドのレンダリングよりもサーバーサイドのレンダリングを可能な限り活用
+- 他のライブラリを使用することが可能
+  - React、Preact、Svelte、Vue、Solid、Lit などはすべてサポートされており、それを使って Astro プロジェクトで新しい UI コンポーネントを作成可能
+- サーバサイドレンダリングに特化した設計
+  - フロントエンドに複雑な実装を持たせる必要なし
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Impression
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Astro のコードは理解し易くて書いていて楽しい
+- 静的なページを作成する点においては Next.js よりも上だと感じる
+  - HP 作成やブログ作成などの選択肢には最適
+- 複雑性を排除したはいいものの、色々なフレームワークを組み合わせられるので、運用方法をしっかりと定めないと、やはり複雑なコードになってしまうのではないかと思う
